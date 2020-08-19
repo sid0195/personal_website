@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/personal_website/static/css/main.291069ad.chunk.css",
+    "main.js": "/personal_website/static/js/main.190328e1.chunk.js",
+    "main.js.map": "/personal_website/static/js/main.190328e1.chunk.js.map",
+    "runtime-main.js": "/personal_website/static/js/runtime-main.9f821fd9.js",
+    "runtime-main.js.map": "/personal_website/static/js/runtime-main.9f821fd9.js.map",
+    "static/js/2.c8c0703f.chunk.js": "/personal_website/static/js/2.c8c0703f.chunk.js",
+    "static/js/2.c8c0703f.chunk.js.map": "/personal_website/static/js/2.c8c0703f.chunk.js.map",
+    "index.html": "/personal_website/index.html",
+    "precache-manifest.d816980271fad9ea6ff48eddabbf6c57.js": "/personal_website/precache-manifest.d816980271fad9ea6ff48eddabbf6c57.js",
+    "service-worker.js": "/personal_website/service-worker.js",
+    "static/css/main.291069ad.chunk.css.map": "/personal_website/static/css/main.291069ad.chunk.css.map",
+    "static/js/2.c8c0703f.chunk.js.LICENSE.txt": "/personal_website/static/js/2.c8c0703f.chunk.js.LICENSE.txt",
+    "static/media/hippos.png": "/personal_website/static/media/hippos.a38ae57c.png",
+    "static/media/profilePic.jpg": "/personal_website/static/media/profilePic.07326f36.jpg",
+    "static/media/sony.png": "/personal_website/static/media/sony.a93fe5dd.png",
+    "static/media/uw.png": "/personal_website/static/media/uw.31e73eb2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f821fd9.js",
+    "static/js/2.c8c0703f.chunk.js",
+    "static/css/main.291069ad.chunk.css",
+    "static/js/main.190328e1.chunk.js"
+  ]
+}
