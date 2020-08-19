@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Alata');
 
 /* Global Styles */
 :root {
@@ -16,7 +17,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arial';
   font-size: 1rem;
   line-height: 1.6;
   background-color: #fff;
@@ -351,11 +352,10 @@ table th {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.7rem 2rem;
+  padding: 0.2rem;
   z-index: 1;
   width: 100%;
   opacity: 0.9;
-  margin-bottom: 1rem;
 }
 
 .navbar ul {
@@ -374,19 +374,61 @@ table th {
 
 .typical_wrapper {
   text-align: center;
-  font-size: 3rem;
-  color: #fff;
-  padding: ;
+  font-size: 2rem;
+  color: #424242;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 
-.circle {
-  transition: 0.3s;
-  color: #fff;
+.bottomPanel {
+  text-align: center;
+  font-size: 1.3em;
 }
 
-.circle:hover {
-  color: #64bb5d;
+.bottomSelector {
+  transition: 1s;
 }
+
+.bottomResume:hover {
+  background: #74d1ff;
+}
+
+.bottomResumeSelected {
+  background: #74d1ff;
+}
+
+.bottomProj:hover {
+  background: #ff7474;
+}
+
+.bottomProjSelected {
+  background: #ff7474;
+}
+
+.bottomContact:hover {
+  background: #74ff9a;
+}
+
+.bottomContactSelected {
+  background: #74ff9a;
+}
+
+.resume {
+  padding-top: 2em;
+}
+
+.resumeHeading {
+  padding-left: 2em;
+}
+
+.logoAndInfo {
+  font-size: 1.2em;
+}
+
+.bottomNavigator {
+  font-family: 'Alata';
+}
+
 .navbar .welcome span {
   margin-right: 0.6rem;
 }
