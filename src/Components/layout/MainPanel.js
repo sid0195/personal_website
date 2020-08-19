@@ -1,6 +1,6 @@
 import React from 'react';
 import Typical from 'react-typical';
-import ProfilePicture from '../profilePicture.png';
+import ProfilePicture from '../info/img/profilePic.jpg';
 
 const MainPanel = () => {
   return (
@@ -14,13 +14,13 @@ const MainPanel = () => {
         <Typical
           steps={[
             "> HI, I'M SIDHARTHA SINGH",
-            4000,
+            2000,
             "> HI, I'M A DEVELOPER",
-            4000,
+            2000,
             "> HI, I'M A CS STUDENT",
-            4000,
+            2000,
             "> HI, I'M SIDHARTHA SINGH",
-            4000,
+            1000,
           ]}
           loop={1}
         ></Typical>
@@ -30,7 +30,7 @@ const MainPanel = () => {
 };
 
 const mainPanelStyle = {
-  background: '#f6f6f6',
+  background: '#fff',
   borderTop: '0.1em solid #d8d8d8',
   borderBottom: '0.1em solid #d8d8d8',
   textAlign: 'center',

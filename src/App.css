@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Alata');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /* Global Styles */
 :root {
@@ -25,7 +26,6 @@ body {
 }
 
 a {
-  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -356,20 +356,25 @@ table th {
   z-index: 1;
   width: 100%;
   opacity: 0.9;
+  position: fixed;
+  background: #ffffff85;
 }
 
 .navbar ul {
   display: flex;
 }
 
-.navbar a {
-  color: #fff;
-  padding: 0.45rem;
-  margin: 0 0.25rem;
+.navbar li {
+  color: #484848;
+  padding: 0.45em 1em;
+  font-family: 'Courier New', Courier, monospace;
+  transition: 1s;
+  letter-spacing: 0.2em;
 }
 
-.navbar a:hover {
-  color: var(--light-color);
+.navbar li:hover {
+  background: #8b8b8b;
+  color: white;
 }
 
 .typical_wrapper {
@@ -383,6 +388,27 @@ table th {
 .bottomPanel {
   text-align: center;
   font-size: 1.3em;
+}
+
+.resume {
+  background: #dcdcdc;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.resumeWorkExperience {
+  background: #dcdcdc;
+}
+
+.resumeEducation {
+  background: #f97373;
+}
+
+.aboutMe {
+  font-family: 'Courier New', Courier, monospace;
+  background: #1c1c1c;
+  color: white;
+  padding: 3em 3em;
 }
 
 .bottomSelector {
@@ -417,12 +443,9 @@ table th {
   padding-top: 2em;
 }
 
-.resumeHeading {
-  padding-left: 2em;
-}
-
 .logoAndInfo {
   font-size: 1.2em;
+  display: flex;
 }
 
 .bottomNavigator {
@@ -433,8 +456,83 @@ table th {
   margin-right: 0.6rem;
 }
 
+.listing ul {
+  padding-left: 3em;
+}
+
+.resumeSection {
+  padding-left: 12em;
+  padding-right: 12em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  display: inline-block;
+  width: 100%;
+  font-family: 'Open Sans';
+}
+
+.resumeHeading {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  border-bottom: 0.001em solid #000;
+  width: fit-content;
+  margin-bottom: 1em;
+  margin-left: 3em;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.2em;
+  padding: 0.1em 0em;
+}
+
+.sectionSubText {
+  letter-spacing: 0.1em;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  padding: 2em 0em;
+  background: #6196da;
+}
+
+.contact p {
+  font-family: 'Open Sans';
+  letter-spacing: 0.2em;
+  font-size: 1.5em;
+}
+
+.contact a {
+  color: #333;
+  transition: 0.5s;
+  padding: 1em 0em;
+}
+
+.contact a:hover {
+  background: #ffffffbd;
+}
+
 /* Mobile Styles */
-@media (max-width: 700px) {
+@media (max-width: 500px) {
+  .hideIfNecessary {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logoAndInfo {
+    display: block;
+  }
+}
+
+@media (max-width: 800px) {
+  .resumeSection {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
   .hide-sm {
     display: none;
   }
@@ -464,8 +562,11 @@ table th {
     text-align: center;
   }
 
-  .navbar ul {
+  .navbar ul li {
     text-align: center;
     justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
 }
